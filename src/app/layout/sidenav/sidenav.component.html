@@ -1,0 +1,11 @@
+<div
+  class="fixed flex items-center top-14 lg:top-0 right-6  lg:right-10 xl:right-24 border-r border-gray-400 h-screen nav z-20">
+  <nav class="flex flex-col gap-4 transform translate-x-1/2 ">
+    <a routerLink="." [fragment]="section.anchor" class="section group"
+      *ngFor="let section of sections$ | async;let i = index;" (click)="setSection(i)" [matTooltip]="section.name"
+      matTooltipPosition="left" matTooltipClass=" bg-green-500 text-white"
+      [ngClass]="{'active': i == (currentSection$ | async)?.index}">
+      <mat-icon [fontIcon]="section.icon" class="group-hover:text-green-400"></mat-icon>
+    </a>
+  </nav>
+</div>

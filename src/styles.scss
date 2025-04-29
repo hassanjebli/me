@@ -1,0 +1,56 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~normalize.css";
+
+@import "./assets/styles/dark.theme.scss";
+
+@import "swiper/scss";
+@import "swiper/css/mousewheel";
+
+@layer base {
+  *:not(svg, fa-icon, path) {
+    @apply text-gray-300;
+  }
+
+  body {
+    @apply pt-[0.02px] bg-cod-gray-500;
+  }
+}
+
+.mat-mdc-tooltip{
+  .mdc-tooltip__surface{
+    @apply bg-transparent #{!important};
+  }
+}
+
+.mdc-snackbar__surface{
+  @apply rounded-none #{!important};
+  .mat-mdc-snack-bar-label{
+    @apply text-cod-gray-500 #{!important};
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  z-index: 10000;
+  @apply w-1.5 sm:w-2.5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-cod-gray-400;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-green-500;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-green-600;
+}

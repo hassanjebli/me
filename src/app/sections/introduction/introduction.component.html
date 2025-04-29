@@ -1,0 +1,86 @@
+<section
+  [id]="sectionId"
+  class="flex flex-col justify-center lg:h-screen px-0 pt-20 pb-5 sm:px-5 sm:pb-10"
+>
+  <aj-section-title title="introduction" class="mt-auto"></aj-section-title>
+  <div
+    class="flex flex-col gap-10 sm:gap-20 justify-between mb-auto mt-10 w-fill"
+  >
+    <div
+      class="flex flex-col gap-8 md:gap-0 md:flex-row justify-between items-center"
+    >
+      <div class="flex flex-col flex-shrink-0">
+        <p class="text-xl text-green-500">Hi there, Welcome!</p>
+        <h1 class="text-4xl sm:text-6xl text-white font-medium">
+          I'm Hassan AIT JABLI
+        </h1>
+        <p class="mt-5">
+          I'm a passionate and fast-learning web developer, currently training
+          at OFPPT Morocco.<br class="hidden sm:block" />
+          I specialize in building full stack web apps using Laravel & React.
+        </p>
+
+        <div class="flex flex-wrap gap-4 mt-5 sm:mt-16">
+          <button
+            mat-stroked-button
+            color="accent"
+            class="!rounded-none"
+            (click)="goToContactSection()"
+          >
+            Contact me
+          </button>
+          <button
+            mat-flat-button
+            color="primary"
+            [matMenuTriggerFor]="langResumeMenu"
+            class="!rounded-none"
+          >
+            <p class="!text-cod-gray-500">My resume</p>
+          </button>
+          <mat-menu
+            #langResumeMenu="matMenu"
+            xPosition="before"
+            class="!rounded-none bg-cod-gray-500"
+          >
+            <a mat-menu-item href="assets/hassan.pdf" target="_blank">
+              <div class="flex gap-2">
+                <img
+                  src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.7.0/flags/4x3/fr.svg"
+                  class="w-5"
+                />
+                <span class="capitalize">Fr</span>
+              </div>
+            </a>
+          </mat-menu>
+          <!-- <button mat-stroked-button color="primary">
+            <p class=" text-green-500">Europass resume</p>
+          </button> -->
+        </div>
+      </div>
+      <aj-desktop class="w-fill max-w-xs lg:hidden xl:block"></aj-desktop>
+    </div>
+    <div
+      class="grid grid-cols-3 sm:flex gap-4 sm:gap-20"
+      *ngIf="expStats$ | async as expStats"
+    >
+      <div class="flex flex-col" *ngFor="let expStat of expStats$ | async">
+        <p class="text-green-400 text-5xl sm:text-7xl">{{ expStat.value }}</p>
+        <h3 class="text-xs sm:text-lg font-light uppercase">
+          {{ expStat.title }}
+        </h3>
+      </div>
+      <!-- <div class="flex flex-col">
+        <p class=" text-green-400 text-5xl sm:text-7xl">{{ expStats.years }}</p>
+        <h3 class="text-xs sm:text-lg font-light uppercase">YEARS OF EXPERIENCE</h3>
+      </div>
+      <div class="flex flex-col">
+        <p class=" text-green-400 text-5xl sm:text-7xl">{{ expStats.projects }}</p>
+        <h3 class="text-xs sm:text-lg font-light uppercase">Projects</h3>
+      </div>
+      <div class="flex flex-col">
+        <p class=" text-green-400 text-5xl sm:text-7xl">{{ expStats.contributions }}</p>
+        <h3 class="text-xs sm:text-lg font-light uppercase">Contributions</h3>
+      </div> -->
+    </div>
+  </div>
+</section>
