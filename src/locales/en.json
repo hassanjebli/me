@@ -1,0 +1,141 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "French",
+    "ar": "Arabic"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Hassan AIT JABLI",
+    "title": "Web Developer",
+    "description": "I build responsive and accessible web applications with modern technologies using Laravel and React.",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get in Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "shortBio": "I'm a passionate web developer with a focus on creating engaging digital experiences.",
+    "longBio": "I'm a passionate full-stack web developer with a strong foundation in Laravel, React.js, JavaScript, PHP, MySQL, and modern web technologies. While I may not have years of professional experience yet, I've built several real-world projects that demonstrate my ability to design, develop, and debug full-featured applications from scratch. I specialize in creating clean, responsive, and user-friendly web apps, and I'm constantly learning new tools and best practices. Whether it's crafting efficient APIs with Laravel or building dynamic front-ends with React, I love bringing ideas to life through code.",
+    "skills": {
+      "title": "Skills",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "design": "UI/UX Design",
+      "languages": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React",
+        "PHP",
+        "Laravel",
+        "SQL",
+        "WordPress"
+      ]
+    },
+    "timeline": {
+      "title": "Education",
+      "items": [
+        {
+          "year": "2023 - 2025",
+          "title": "Diploma in Digital Development – Web Full Stack",
+          "organization": "OFPPT – Oulad Teïma Center",
+          "description": "Comprehensive training in full-stack web development using modern technologies like Laravel, React.js, JavaScript, PHP, and MySQL."
+        },
+        {
+          "year": "2021 - 2023",
+          "title": "DEUG – General University Diploma in Physical Sciences",
+          "organization": "Ibn Zohr University – Aït Melloul",
+          "description": "Academic foundation in mathematics, physics, and computer science, with a focus on logic and problem-solving."
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "filters": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Fullstack"
+    },
+    "items": [
+      {
+        "title": "Cars Selling Platform",
+        "description": "A full-stack web application for buying and selling cars.",
+        "technologies": ["PHP", "Laravel", "MySql"],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/GearShift"
+      },
+      {
+        "title": "Tasks Management App",
+        "description": "A simple task management application to organize daily tasks.",
+        "technologies": ["Laravel", "React", "MySql", "Inertia js"],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/tasks-management"
+      },
+      {
+        "title": "Ziyarah",
+        "description": "A frontend application for managing visits and appointments.",
+        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
+        "category": "frontend",
+        "github": "https://github.com/hassanjebli/ziyarah"
+      },
+      {
+        "title": "Micro PHP MVC Framework",
+        "description": "A lightweight PHP MVC framework for building web applications.",
+        "technologies": ["PHP", "MySql"],
+        "category": "backend",
+        "github": "https://github.com/hassanjebli/php-micro-mvc-framework"
+      },
+      {
+        "title": "Managing Hotel Booking & Rooms... etc",
+        "description": "A simple hotel management system for booking rooms and managing reservations.",
+        "technologies": ["PHP", "Javascript", "MySql"],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/gestion-reservation-hotel"
+      },
+      {
+        "title": "Invoice Management System",
+        "description": "A web application for managing invoices and payments.",
+        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
+        "category": "frontend",
+        "github": "https://github.com/hassanjebli/fluent-invoice-dashboard"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Have a question or want to work together? Feel free to reach out!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "required": "This field is required",
+      "emailInvalid": "Please enter a valid email address",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "hassanjebli2002@gmail.com",
+      "location": "OULAD TEIMA, TAROUDANT, MOROCCO"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Hassan AIT JABLI. All rights reserved.",
+    "socials": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
