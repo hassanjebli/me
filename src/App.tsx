@@ -22,7 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/me">
         <ParticlesBackground />
         <Navbar />
         <main className="min-h-screen pt-16">
