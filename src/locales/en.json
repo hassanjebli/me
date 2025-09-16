@@ -14,10 +14,16 @@
     "greeting": "Hello, I'm",
     "name": "Hassan AIT JABLI",
     "title": "Web Developer",
-    "description": "I build responsive and accessible web applications with modern technologies using Laravel and React.",
+    "description": "I’m a web developer specializing in Laravel, React, Tailwind CSS, and Shadcn UI. I build modern, scalable, and user-friendly applications with clean design and robust functionality.",
     "cta": {
       "projects": "View Projects",
-      "contact": "Get in Touch"
+      "contact": "Get in Touch",
+      "download": "Download CV",
+      "cv": {
+        "title": "Download CV",
+        "english": "English Version",
+        "french": "French Version"
+      }
     }
   },
   "about": {
@@ -25,21 +31,23 @@
     "shortBio": "I'm a passionate web developer with a focus on creating engaging digital experiences.",
     "longBio": "I'm a passionate full-stack web developer with a strong foundation in Laravel, React.js, JavaScript, PHP, MySQL, and modern web technologies. While I may not have years of professional experience yet, I've built several real-world projects that demonstrate my ability to design, develop, and debug full-featured applications from scratch. I specialize in creating clean, responsive, and user-friendly web apps, and I'm constantly learning new tools and best practices. Whether it's crafting efficient APIs with Laravel or building dynamic front-ends with React, I love bringing ideas to life through code.",
     "skills": {
-      "title": "Skills",
-      "frontend": "Frontend Development",
-      "backend": "Backend Development",
-      "design": "UI/UX Design",
-      "languages": [
-        "HTML5",
-        "CSS3",
-        "JavaScript (ES6+)",
-        "React",
-        "PHP",
-        "Laravel",
-        "SQL",
-        "WordPress"
-      ]
-    },
+  "title": "Skills",
+  "frontend": "Frontend Development",
+  "backend": "Backend Development",
+  "design": "UI/UX Design",
+  "languages": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React",
+    "Shadcn UI",
+    "PHP",
+    "Laravel",
+    "Filament",
+    "SQL",
+    "WordPress"
+  ]
+},
     "timeline": {
       "title": "Education",
       "items": [
@@ -60,6 +68,8 @@
   },
   "projects": {
     "title": "Projects",
+    "previewTitle": "Project Preview",
+    "closePreview": "Close Preview",
     "filters": {
       "all": "All",
       "frontend": "Frontend",
@@ -69,46 +79,78 @@
     "items": [
       {
         "title": "Cars Selling Platform",
-        "description": "A full-stack web application for buying and selling cars.",
+        "description": "A full-stack web application for buying and selling cars. Visitors can browse and explore available cars, while registered users can list their own vehicles for sale. The platform also includes features such as user authentication, adding cars to a wishlist, and an intuitive browsing experience.",
         "technologies": ["PHP", "Laravel", "MySql"],
         "category": "fullstack",
-        "github": "https://github.com/hassanjebli/GearShift"
+        "github": "https://github.com/hassanjebli/GearShift",
+        "images": [
+          "/images/projects/cars/1.png",
+          "/images/projects/cars/2.png",
+          "/images/projects/cars/3.png",
+          "/images/projects/cars/4.png",
+          "/images/projects/cars/5.png",
+          "/images/projects/cars/6.png",
+          "/images/projects/cars/7.png"
+        ]
       },
       {
         "title": "Tasks Management App",
-        "description": "A simple task management application to organize daily tasks.",
+        "description": "A complete project and task management application with user management features. It allows teams or individuals to create projects, assign tasks, set deadlines, and track progress, providing a simple yet powerful way to stay organized and productive.",
         "technologies": ["Laravel", "React", "MySql", "Inertia js"],
         "category": "fullstack",
-        "github": "https://github.com/hassanjebli/tasks-management"
+        "github": "https://github.com/hassanjebli/tasks-management",
+        "images": [
+          "/images/projects/tasks-management/1.png",
+          "/images/projects/tasks-management/2.png",
+          "/images/projects/tasks-management/3.png",
+          "/images/projects/tasks-management/4.png",
+          "/images/projects/tasks-management/5.png",
+          "/images/projects/tasks-management/6.png",
+          "/images/projects/tasks-management/7.png",
+          "/images/projects/tasks-management/8.png",
+          "/images/projects/tasks-management/9.png"
+        ]
+      },{
+      "title": "Multivendor E-commerce Store",
+        "description": "A full-featured multivendor e-commerce platform built with Laravel, React, and Inertia.js. Supports product variations and variation options, vendor management, modern UI using Shadcn UI and Filament, integrated with Stripe for payments and Gemini API to help vendors generate product content effortlessly.",
+      "technologies": ["PHP", "Laravel", "MySQL", "React", "Inertia.js", "Filament", "Shadcn UI", "Tailwind CSS"],
+      "category": "fullstack",
+      "github": "https://github.com/hassanjebli/multi-vendor-ecommerce", 
+      "images": [
+        "/images/projects/ecommerce/1.png",
+        "/images/projects/ecommerce/2.png",
+        "/images/projects/ecommerce/3.png",
+        "/images/projects/ecommerce/4.png",
+        "/images/projects/ecommerce/5.png",
+        "/images/projects/ecommerce/6.png",
+        "/images/projects/ecommerce/7.png",
+        "/images/projects/ecommerce/8.png"
+      ]
       },
       {
-        "title": "Ziyarah",
-        "description": "A frontend application for managing visits and appointments.",
-        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-        "category": "frontend",
-        "github": "https://github.com/hassanjebli/ziyarah"
-      },
-      {
-        "title": "Micro PHP MVC Framework",
-        "description": "A lightweight PHP MVC framework for building web applications.",
-        "technologies": ["PHP", "MySql"],
-        "category": "backend",
-        "github": "https://github.com/hassanjebli/php-micro-mvc-framework"
-      },
-      {
-        "title": "Managing Hotel Booking & Rooms... etc",
-        "description": "A simple hotel management system for booking rooms and managing reservations.",
-        "technologies": ["PHP", "Javascript", "MySql"],
-        "category": "fullstack",
-        "github": "https://github.com/hassanjebli/gestion-reservation-hotel"
-      },
-      {
-        "title": "Invoice Management System",
-        "description": "A web application for managing invoices and payments.",
-        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-        "category": "frontend",
-        "github": "https://github.com/hassanjebli/fluent-invoice-dashboard"
-      }
+  "title": "Advanced Stock Management System",
+  "description": "A professional and complete stock management system built entirely with Laravel and Filament. It provides all the features needed for efficient inventory control, including product and category management, supplier and customer tracking, purchase and sales management, stock in/out operations, and real-time inventory monitoring. Advanced tools such as Excel/PDF reporting, role-based access control, and detailed user management with granular permissions ensure reliability and scalability for real-world business use.",
+  "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
+  "category": "fullstack",
+  "github": "https://github.com/yourusername/stock-management-filament",
+  "images": [
+    "/images/projects/stock-management/1.png",
+    "/images/projects/stock-management/2.png",
+    "/images/projects/stock-management/3.png",
+    "/images/projects/stock-management/4.png",
+    "/images/projects/stock-management/5.png",
+    "/images/projects/stock-management/6.png",
+    "/images/projects/stock-management/7.png",
+    "/images/projects/stock-management/8.png",
+    "/images/projects/stock-management/9.png",
+    "/images/projects/stock-management/10.png",
+    "/images/projects/stock-management/11.png",
+    "/images/projects/stock-management/12.png",
+    "/images/projects/stock-management/13.png"
+  ]
+}
+
+
     ]
   },
   "contact": {

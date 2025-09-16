@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
@@ -11,7 +10,8 @@ interface Project {
   technologies: string[];
   category: string;
   github: string;
-  live: string;
+  live?: string;
+  images?: string[];
 }
 
 const Projects = () => {
@@ -62,12 +62,13 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project, index) => (
             <ProjectCard
-              key={index}
+              key={`${project.title}-${filter}`} // Use unique key combining title and filter
               title={project.title}
               description={project.description}
               technologies={project.technologies}
               github={project.github}
               live={project.live}
+              images={project.images}
               index={index}
             />
           ))}

@@ -5,7 +5,6 @@ import { initReactI18next } from 'react-i18next';
 // Import translation files
 import translationEN from './locales/en.json';
 import translationFR from './locales/fr.json';
-import translationAR from './locales/ar.json';
 
 // The translations
 const resources = {
@@ -14,9 +13,6 @@ const resources = {
   },
   fr: {
     translation: translationFR
-  },
-  ar: {
-    translation: translationAR
   }
 };
 
@@ -40,7 +36,7 @@ i18n
 
 // Set document direction based on language
 const setDocumentDirection = (language: string) => {
-  const dir = language === 'ar' ? 'rtl' : 'ltr';
+  const dir = 'ltr';
   document.documentElement.dir = dir;
   document.documentElement.lang = language;
 };

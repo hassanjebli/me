@@ -12,9 +12,9 @@
   },
   "hero": {
     "greeting": "Salut, je suis",
-    "name": "Hassan Ait Jabli",
+    "name": "Hassan AIT JABLI",
     "title": "Développeur Web",
-    "description": "Je crée des applications web modernes, responsives et accessibles avec Laravel, React, et plus encore.",
+    "description": "Développeur web spécialisé en Laravel, React, Tailwind CSS et Shadcn UI. Je crée des applications modernes, évolutives et intuitives avec un design soigné et des fonctionnalités fiables.",
     "cta": {
       "projects": "Voir les projets",
       "contact": "Me contacter"
@@ -22,23 +22,25 @@
   },
   "about": {
     "title": "À propos de moi",
-    "shortBio": "Je suis un développeur web full stack passionné, spécialisé dans la création d’expériences numériques modernes.",
-    "longBio": "Je suis un développeur web Full Stack classé premier de ma promotion en Développement Digital – Option Web Full Stack (OFPPT). Je maîtrise des technologies modernes comme Laravel, React.js, JavaScript, PHP, MySQL, et bien d’autres. Bien que je sois encore en début de carrière, j’ai réalisé plusieurs projets concrets, dont un système de gestion des courriers pour la Province de Taroudant. Curieux, autonome et motivé, je m’efforce de produire un code propre, performant et centré sur l’expérience utilisateur. Que ce soit pour développer des APIs robustes ou des interfaces fluides, je transforme les idées en solutions réelles.",
+    "shortBio": "Je suis un développeur web passionné, spécialisé dans la création d'expériences numériques engageantes.",
+    "longBio": "Je suis un développeur web full-stack passionné avec de solides bases en Laravel, React.js, JavaScript, PHP, MySQL et technologies web modernes. Même si je n'ai pas encore des années d'expérience professionnelle, j'ai construit plusieurs projets réels démontrant ma capacité à concevoir, développer et déboguer des applications complètes depuis zéro. Je me spécialise dans la création d'applications web propres, responsives et conviviales, et j'apprends constamment de nouveaux outils et meilleures pratiques. Que ce soit pour développer des APIs efficaces avec Laravel ou des frontends dynamiques avec React, j'adore donner vie aux idées grâce au code.",
     "skills": {
       "title": "Compétences",
       "frontend": "Développement Frontend",
       "backend": "Développement Backend",
-      "design": "Design UX/UI",
+      "design": "UI/UX Design",
       "languages": [
-        "HTML5",
-        "CSS3",
-        "JavaScript (ES6+)",
-        "React",
-        "PHP",
-        "Laravel",
-        "SQL",
-        "WordPress"
-      ]
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React",
+    "Shadcn UI",
+    "PHP",
+    "Laravel",
+    "Filament",
+    "SQL",
+    "WordPress"
+  ]
     },
     "timeline": {
       "title": "Éducation",
@@ -47,19 +49,21 @@
           "year": "2023 - 2025",
           "title": "Diplôme de Technicien Spécialisé en Développement Digital – Option Web Full Stack",
           "organization": "OFPPT – Centre Oulad Teïma",
-          "description": "Formation complète en développement web moderne avec Laravel, React.js, JavaScript, PHP, MySQL et d'autres outils."
+          "description": "Formation complète en développement web full-stack avec Laravel, React.js, JavaScript, PHP, MySQL et technologies modernes."
         },
         {
           "year": "2021 - 2023",
-          "title": "DEUG – Diplôme d’Études Universitaires Générales en Sciences Physiques",
+          "title": "DEUG – Diplôme d'Études Universitaires Générales en Sciences Physiques",
           "organization": "Université Ibn Zohr – Aït Melloul",
-          "description": "Études fondamentales en physique, mathématiques et bases de l’informatique."
+          "description": "Fondations académiques en mathématiques, physique et informatique, axées sur la logique et la résolution de problèmes."
         }
       ]
     }
   },
   "projects": {
     "title": "Projets",
+    "previewTitle": "Aperçu du projet",
+    "closePreview": "Fermer l'aperçu",
     "filters": {
       "all": "Tous",
       "frontend": "Frontend",
@@ -69,61 +73,92 @@
     "items": [
       {
         "title": "Plateforme de vente de voitures",
-        "description": "Application web complète pour l’achat et la vente de véhicules.",
+        "description": "Application web full-stack pour l'achat et la vente de voitures. Les visiteurs peuvent consulter et parcourir les véhicules disponibles, tandis que les utilisateurs inscrits peuvent mettre leurs propres voitures en vente. La plateforme intègre également l’authentification, la possibilité d’ajouter des voitures à une liste de souhaits et une navigation fluide.",
         "technologies": ["PHP", "Laravel", "MySql"],
         "category": "fullstack",
-        "github": "https://github.com/hassanjebli/GearShift"
+        "github": "https://github.com/hassanjebli/GearShift",
+        "images": [
+          "/images/projects/cars/1.png",
+          "/images/projects/cars/2.png",
+          "/images/projects/cars/3.png",
+          "/images/projects/cars/4.png",
+          "/images/projects/cars/5.png",
+          "/images/projects/cars/6.png",
+          "/images/projects/cars/7.png"
+        ]
       },
       {
         "title": "Application de gestion des tâches",
-        "description": "Application simple pour organiser les tâches quotidiennes.",
+        "description": "Un système professionnel et complet de gestion des stocks, développé entièrement avec Laravel et Filament. Il offre toutes les fonctionnalités nécessaires pour un contrôle efficace des inventaires, incluant la gestion des produits et des catégories, le suivi des fournisseurs et des clients, la gestion des achats et des ventes, les opérations d’entrée et de sortie de stock, ainsi que la surveillance des stocks en temps réel. Des outils avancés tels que l’exportation en Excel/PDF, le contrôle d’accès basé sur les rôles et une gestion détaillée des utilisateurs avec permissions granulaires garantissent une solution fiable et évolutive adaptée aux besoins réels des entreprises.",
         "technologies": ["Laravel", "React", "MySql", "Inertia js"],
         "category": "fullstack",
-        "github": "https://github.com/hassanjebli/tasks-management"
+        "github": "https://github.com/hassanjebli/tasks-management",
+        "images": [
+          "/images/projects/tasks-management/1.png",
+          "/images/projects/tasks-management/2.png",
+          "/images/projects/tasks-management/3.png",
+          "/images/projects/tasks-management/4.png",
+          "/images/projects/tasks-management/5.png",
+          "/images/projects/tasks-management/6.png",
+          "/images/projects/tasks-management/7.png",
+          "/images/projects/tasks-management/8.png",
+          "/images/projects/tasks-management/9.png"
+        ]
       },
       {
-        "title": "Ziyarah",
-        "description": "Application frontend pour la gestion des visites et rendez-vous.",
-        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-        "category": "frontend",
-        "github": "https://github.com/hassanjebli/ziyarah"
-      },
-      {
-        "title": "Mini framework PHP MVC",
-        "description": "Petit framework pour développer des applications web en PHP avec structure MVC.",
-        "technologies": ["PHP", "MySql"],
-        "category": "backend",
-        "github": "https://github.com/hassanjebli/php-micro-mvc-framework"
-      },
-      {
-        "title": "Système de réservation d'hôtel",
-        "description": "Système de gestion des chambres et des factures pour hôtels.",
-        "technologies": ["PHP", "Javascript", "MySql"],
+        "title": "Boutique E-commerce Multivendeur",
+        "description": "Plateforme e-commerce multivendeur complète avec Laravel, React et Inertia.js. Prend en charge les variations de produits, la gestion des vendeurs, UI moderne avec Shadcn UI et Filament, intégrée avec Stripe pour les paiements et l'API Gemini pour aider les vendeurs à générer facilement du contenu pour leurs produits.",
+        "technologies": ["PHP", "Laravel", "MySQL", "React", "Inertia.js", "Filament", "Shadcn UI", "Tailwind CSS"],
         "category": "fullstack",
-        "github": "https://github.com/hassanjebli/gestion-reservation-hotel"
+        "github": "https://github.com/hassanjebli/multi-vendor-ecommerce",
+        "images": [
+        "/images/projects/ecommerce/1.png",
+        "/images/projects/ecommerce/2.png",
+        "/images/projects/ecommerce/3.png",
+        "/images/projects/ecommerce/4.png",
+        "/images/projects/ecommerce/5.png",
+        "/images/projects/ecommerce/6.png",
+        "/images/projects/ecommerce/7.png",
+        "/images/projects/ecommerce/8.png"
+      ]
       },
       {
-        "title": "Gestionnaire de factures",
-        "description": "Application web pour gérer les factures et paiements.",
-        "technologies": ["React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-        "category": "frontend",
-        "github": "https://github.com/hassanjebli/fluent-invoice-dashboard"
+        "title": "Système avancé de gestion des stocks",
+        "description": "Système professionnel de gestion des stocks entièrement construit avec Laravel et Filament. Fonctionnalités : gestion par rôles, rapports Excel/PDF, suivi des inventaires et gestion des utilisateurs avec permissions détaillées.",
+        "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
+        "category": "fullstack",
+        "github": "https://github.com/yourusername/stock-management-filament",
+        "images": [
+    "/images/projects/stock-management/1.png",
+    "/images/projects/stock-management/2.png",
+    "/images/projects/stock-management/3.png",
+    "/images/projects/stock-management/4.png",
+    "/images/projects/stock-management/5.png",
+    "/images/projects/stock-management/6.png",
+    "/images/projects/stock-management/7.png",
+    "/images/projects/stock-management/8.png",
+    "/images/projects/stock-management/9.png",
+    "/images/projects/stock-management/10.png",
+    "/images/projects/stock-management/11.png",
+    "/images/projects/stock-management/12.png",
+    "/images/projects/stock-management/13.png"
+  ]
       }
     ]
   },
   "contact": {
     "title": "Contact",
-    "description": "Une question ? Un projet ? N'hésitez pas à me contacter.",
+    "description": "Une question ou un projet ? N'hésitez pas à me contacter !",
     "form": {
       "name": "Nom",
       "email": "Email",
       "message": "Message",
       "send": "Envoyer le message",
-      "sending": "Envoi en cours...",
+      "sending": "Envoi...",
       "required": "Ce champ est obligatoire",
       "emailInvalid": "Veuillez entrer une adresse email valide",
       "success": "Message envoyé avec succès !",
-      "error": "Échec de l’envoi. Veuillez réessayer plus tard."
+      "error": "Échec de l'envoi. Veuillez réessayer."
     },
     "info": {
       "title": "Coordonnées",
@@ -132,7 +167,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Hassan Ait Jabli. Tous droits réservés.",
+    "copyright": "© 2025 Hassan AIT JABLI. Tous droits réservés.",
     "socials": {
       "github": "GitHub",
       "linkedin": "LinkedIn"

@@ -3,7 +3,17 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import {
+  ArrowRight,
+  FileDown,
+  Languages
+} from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -84,6 +94,44 @@ const Home = () => {
                 {t('hero.cta.contact')}
               </Link>
             </Button>
+
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="mb-8"
+            >
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className="rounded-full px-6 group relative overflow-hidden"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      {t('hero.cta.cv.title')}
+                      <Languages className="w-4 h-4 transition-transform group-hover:rotate-12" />
+                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/20 to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end" className="w-[200px]">
+                  <DropdownMenuItem 
+                    className="flex items-center gap-2 cursor-pointer"
+                    onClick={() => window.open('/documents/cv.pdf', '_blank')}
+                  >
+                    <FileDown className="w-4 h-4" />
+                    <span>{t('hero.cta.cv.english')}</span>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem 
+                    className="flex items-center gap-2 cursor-pointer"
+                    onClick={() => window.open('/documents/cv.pdf', '_blank')}
+                  >
+                    <FileDown className="w-4 h-4" />
+                    <span>{t('hero.cta.cv.french')}</span>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </motion.div>
           </motion.div>
         </motion.div>
       </div>
