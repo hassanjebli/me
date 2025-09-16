@@ -132,7 +132,7 @@
   "description": "A professional and complete stock management system built entirely with Laravel and Filament. It provides all the features needed for efficient inventory control, including product and category management, supplier and customer tracking, purchase and sales management, stock in/out operations, and real-time inventory monitoring. Advanced tools such as Excel/PDF reporting, role-based access control, and detailed user management with granular permissions ensure reliability and scalability for real-world business use.",
   "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
   "category": "fullstack",
-  "github": "https://github.com/yourusername/stock-management-filament",
+  "github": "https://github.com/hassanjebli/stock-management",
   "images": [
     "/me/images/projects/stock-management/1.png",
     "/me/images/projects/stock-management/2.png",
