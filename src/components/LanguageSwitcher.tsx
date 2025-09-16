@@ -11,8 +11,8 @@ import {
 import { motion } from 'framer-motion';
 
 const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'en', name: 'English', flag: 'EN' },
+  { code: 'fr', name: 'Français', flag: 'FR' },
 ];
 
 const LanguageSwitcher = () => {

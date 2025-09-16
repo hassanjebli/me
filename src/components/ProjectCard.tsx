@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
@@ -29,6 +29,28 @@ const ProjectCard = ({
   const [showPreview, setShowPreview] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [preloadedImages, setPreloadedImages] = useState<Set<string>>(new Set());
+
+  // Preload images
+  const preloadImage = useCallback((src: string) => {
+    if (preloadedImages.has(src)) return;
+    const img = new Image();
+    img.src = src;
+    setPreloadedImages(prev => new Set(prev).add(src));
+  }, [preloadedImages]);
+
+  // Preload next and previous images
+  useEffect(() => {
+    if (!images.length) return;
+    
+    // Preload next image
+    const nextIndex = (currentImageIndex + 1) % images.length;
+    preloadImage(images[nextIndex]);
+    
+    // Preload previous image
+    const prevIndex = (currentImageIndex - 1 + images.length) % images.length;
+    preloadImage(images[prevIndex]);
+  }, [currentImageIndex, images, preloadImage]);
 
   // Reset state when component props change (when filtering)
   useEffect(() => {
@@ -62,16 +84,19 @@ const ProjectCard = ({
           {images.length > 0 && (
             <div className="relative h-48 overflow-hidden bg-gray-100">
               <img
-                key={`${title}-${images[0]}`} // Force re-render when title/image changes
+                key={`${title}-${images[0]}`}
                 src={images[0]}
                 alt={title}
-                className="w-full h-full object-cover transition-transform hover:scale-105"
+                loading="lazy"
+                decoding="async"
+                className={`w-full h-full object-cover transition-all duration-700 ${
+                  imageLoaded ? 'scale-100 blur-0' : 'scale-105 blur-lg'
+                }`}
                 onLoad={() => setImageLoaded(true)}
                 onError={(e) => {
-                  // Fallback to a placeholder or hide image on error
-                  e.currentTarget.style.display = 'none';
+                  e.currentTarget.src = '/placeholder.svg';
+                  setImageLoaded(true);
                 }}
-                style={{ display: imageLoaded ? 'block' : 'none' }}
               />
               {!imageLoaded && (
                 <div className="w-full h-full flex items-center justify-center bg-gray-200">
@@ -163,10 +188,15 @@ const ProjectCard = ({
                               {/* Image Container */}
               <div className="relative bg-white rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  key={`preview-${title}-${currentImageIndex}`} // Force re-render for preview images
+                  key={`preview-${title}-${currentImageIndex}`}
                   src={images[currentImageIndex]}
                   alt={`${title} - Image ${currentImageIndex + 1}`}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full max-h-[70vh] object-contain"
+                  onError={(e) => {
+                    e.currentTarget.src = '/placeholder.svg';
+                  }}
                 />
 
                 {/* Navigation Buttons */}

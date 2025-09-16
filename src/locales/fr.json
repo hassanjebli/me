@@ -17,7 +17,13 @@
     "description": "Développeur web spécialisé en Laravel, React, Tailwind CSS et Shadcn UI. Je crée des applications modernes, évolutives et intuitives avec un design soigné et des fonctionnalités fiables.",
     "cta": {
       "projects": "Voir les projets",
-      "contact": "Me contacter"
+      "contact": "Me contacter",
+      "download": "Download CV",
+      "cv": {
+        "title": "Download CV",
+        "english": "English Version",
+        "french": "French Version"
+      }
     }
   },
   "about": {
@@ -78,13 +84,13 @@
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/GearShift",
         "images": [
-          "/images/projects/cars/1.png",
-          "/images/projects/cars/2.png",
-          "/images/projects/cars/3.png",
-          "/images/projects/cars/4.png",
-          "/images/projects/cars/5.png",
-          "/images/projects/cars/6.png",
-          "/images/projects/cars/7.png"
+          "/me/images/projects/cars/1.png",
+          "/me/images/projects/cars/2.png",
+          "/me/images/projects/cars/3.png",
+          "/me/images/projects/cars/4.png",
+          "/me/images/projects/cars/5.png",
+          "/me/images/projects/cars/6.png",
+          "/me/images/projects/cars/7.png"
         ]
       },
       {
@@ -94,15 +100,15 @@
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/tasks-management",
         "images": [
-          "/images/projects/tasks-management/1.png",
-          "/images/projects/tasks-management/2.png",
-          "/images/projects/tasks-management/3.png",
-          "/images/projects/tasks-management/4.png",
-          "/images/projects/tasks-management/5.png",
-          "/images/projects/tasks-management/6.png",
-          "/images/projects/tasks-management/7.png",
-          "/images/projects/tasks-management/8.png",
-          "/images/projects/tasks-management/9.png"
+          "/me/images/projects/tasks-management/1.png",
+          "/me/images/projects/tasks-management/2.png",
+          "/me/images/projects/tasks-management/3.png",
+          "/me/images/projects/tasks-management/4.png",
+          "/me/images/projects/tasks-management/5.png",
+          "/me/images/projects/tasks-management/6.png",
+          "/me/images/projects/tasks-management/7.png",
+          "/me/images/projects/tasks-management/8.png",
+          "/me/images/projects/tasks-management/9.png"
         ]
       },
       {
@@ -112,14 +118,14 @@
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/multi-vendor-ecommerce",
         "images": [
-        "/images/projects/ecommerce/1.png",
-        "/images/projects/ecommerce/2.png",
-        "/images/projects/ecommerce/3.png",
-        "/images/projects/ecommerce/4.png",
-        "/images/projects/ecommerce/5.png",
-        "/images/projects/ecommerce/6.png",
-        "/images/projects/ecommerce/7.png",
-        "/images/projects/ecommerce/8.png"
+        "/me/images/projects/ecommerce/1.png",
+        "/me/images/projects/ecommerce/2.png",
+        "/me/images/projects/ecommerce/3.png",
+        "/me/images/projects/ecommerce/4.png",
+        "/me/images/projects/ecommerce/5.png",
+        "/me/images/projects/ecommerce/6.png",
+        "/me/images/projects/ecommerce/7.png",
+        "/me/images/projects/ecommerce/8.png"
       ]
       },
       {
@@ -129,19 +135,19 @@
         "category": "fullstack",
         "github": "https://github.com/yourusername/stock-management-filament",
         "images": [
-    "/images/projects/stock-management/1.png",
-    "/images/projects/stock-management/2.png",
-    "/images/projects/stock-management/3.png",
-    "/images/projects/stock-management/4.png",
-    "/images/projects/stock-management/5.png",
-    "/images/projects/stock-management/6.png",
-    "/images/projects/stock-management/7.png",
-    "/images/projects/stock-management/8.png",
-    "/images/projects/stock-management/9.png",
-    "/images/projects/stock-management/10.png",
-    "/images/projects/stock-management/11.png",
-    "/images/projects/stock-management/12.png",
-    "/images/projects/stock-management/13.png"
+    "/me/images/projects/stock-management/1.png",
+    "/me/images/projects/stock-management/2.png",
+    "/me/images/projects/stock-management/3.png",
+    "/me/images/projects/stock-management/4.png",
+    "/me/images/projects/stock-management/5.png",
+    "/me/images/projects/stock-management/6.png",
+    "/me/images/projects/stock-management/7.png",
+    "/me/images/projects/stock-management/8.png",
+    "/me/images/projects/stock-management/9.png",
+    "/me/images/projects/stock-management/10.png",
+    "/me/images/projects/stock-management/11.png",
+    "/me/images/projects/stock-management/12.png",
+    "/me/images/projects/stock-management/13.png"
   ]
       }
     ]
