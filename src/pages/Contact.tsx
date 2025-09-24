@@ -198,17 +198,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center">
-                    <div className="bg-primary/10 p-3 rounded-full mr-4">
-                      <MapPin className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Location</p>
-                      <p className="font-medium">
-                        {t('contact.info.location')}
-                      </p>
-                    </div>
-                  </div>
+                  
                 </div>
               </CardContent>
             </Card>

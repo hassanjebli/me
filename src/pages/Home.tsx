@@ -117,14 +117,14 @@ const Home = () => {
                 <DropdownMenuContent align="end" className="w-[200px]">
                   <DropdownMenuItem 
                     className="flex items-center gap-2 cursor-pointer"
-                    onClick={() => window.open('/me/documents/cv.pdf', '_blank')}
+                    onClick={() => window.open('/me/documents/en.pdf', '_blank')}
                   >
                     <FileDown className="w-4 h-4" />
                     <span>{t('hero.cta.cv.english')}</span>
                   </DropdownMenuItem>
                   <DropdownMenuItem 
                     className="flex items-center gap-2 cursor-pointer"
-                    onClick={() => window.open('/me/documents/cv.pdf', '_blank')}
+                    onClick={() => window.open('/me/documents/fr.pdf', '_blank')}
                   >
                     <FileDown className="w-4 h-4" />
                     <span>{t('hero.cta.cv.french')}</span>
