@@ -36,17 +36,17 @@
       "backend": "Développement Backend",
       "design": "UI/UX Design",
       "languages": [
-    "HTML5",
-    "CSS3",
-    "JavaScript (ES6+)",
-    "React",
-    "Shadcn UI",
-    "PHP",
-    "Laravel",
-    "Filament",
-    "SQL",
-    "WordPress"
-  ]
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React",
+        "Shadcn UI",
+        "PHP",
+        "Laravel",
+        "Filament",
+        "SQL",
+        "WordPress"
+      ]
     },
     "timeline": {
       "title": "Éducation",
@@ -80,7 +80,11 @@
       {
         "title": "Plateforme de vente de voitures",
         "description": "Application web full-stack pour l'achat et la vente de voitures. Les visiteurs peuvent consulter et parcourir les véhicules disponibles, tandis que les utilisateurs inscrits peuvent mettre leurs propres voitures en vente. La plateforme intègre également l’authentification, la possibilité d’ajouter des voitures à une liste de souhaits et une navigation fluide.",
-        "technologies": ["PHP", "Laravel", "MySql"],
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySql"
+        ],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/GearShift",
         "images": [
@@ -95,8 +99,13 @@
       },
       {
         "title": "Application de gestion des tâches",
-          "description": "Une application complète de gestion de projets, de tâches et d’utilisateurs. Elle permet de créer des projets, d’assigner des tâches, de définir des échéances et de suivre l’avancement, offrant ainsi un outil simple mais puissant pour rester organisé et productif.",
-        "technologies": ["Laravel", "React", "MySql", "Inertia js"],
+        "description": "Une application complète de gestion de projets, de tâches et d’utilisateurs. Elle permet de créer des projets, d’assigner des tâches, de définir des échéances et de suivre l’avancement, offrant ainsi un outil simple mais puissant pour rester organisé et productif.",
+        "technologies": [
+          "Laravel",
+          "React",
+          "MySql",
+          "Inertia js"
+        ],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/tasks-management",
         "images": [
@@ -114,41 +123,79 @@
       {
         "title": "Boutique E-commerce Multivendeur",
         "description": "Plateforme e-commerce multivendeur complète avec Laravel, React et Inertia.js. Prend en charge les variations de produits, la gestion des vendeurs, UI moderne avec Shadcn UI et Filament, intégrée avec Stripe pour les paiements et l'API Gemini pour aider les vendeurs à générer facilement du contenu pour leurs produits.",
-        "technologies": ["PHP", "Laravel", "MySQL", "React", "Inertia.js", "Filament", "Shadcn UI", "Tailwind CSS"],
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "React",
+          "Inertia.js",
+          "Filament",
+          "Shadcn UI",
+          "Tailwind CSS"
+        ],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/multi-vendor-ecommerce",
         "images": [
-        "/me/images/projects/ecommerce/1.png",
-        "/me/images/projects/ecommerce/2.png",
-        "/me/images/projects/ecommerce/3.png",
-        "/me/images/projects/ecommerce/4.png",
-        "/me/images/projects/ecommerce/5.png",
-        "/me/images/projects/ecommerce/6.png",
-        "/me/images/projects/ecommerce/7.png",
-        "/me/images/projects/ecommerce/8.png"
-      ]
+          "/me/images/projects/ecommerce/1.png",
+          "/me/images/projects/ecommerce/2.png",
+          "/me/images/projects/ecommerce/3.png",
+          "/me/images/projects/ecommerce/4.png",
+          "/me/images/projects/ecommerce/5.png",
+          "/me/images/projects/ecommerce/6.png",
+          "/me/images/projects/ecommerce/7.png",
+          "/me/images/projects/ecommerce/8.png"
+        ]
       },
       {
         "title": "Système avancé de gestion des stocks",
         "description": "Un système professionnel et complet de gestion des stocks, développé entièrement avec Laravel et Filament. Il offre toutes les fonctionnalités nécessaires pour un contrôle efficace des inventaires, incluant la gestion des produits et des catégories, le suivi des fournisseurs et des clients, la gestion des achats et des ventes, les opérations d’entrée et de sortie de stock, ainsi que la surveillance des stocks en temps réel. Des outils avancés tels que l’exportation en Excel/PDF, le contrôle d’accès basé sur les rôles et une gestion détaillée des utilisateurs avec permissions granulaires garantissent une solution fiable et évolutive adaptée aux besoins réels des entreprises.",
-        "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "Filament",
+          "Tailwind CSS"
+        ],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/stock-management",
         "images": [
-    "/me/images/projects/stock-management/1.png",
-    "/me/images/projects/stock-management/2.png",
-    "/me/images/projects/stock-management/3.png",
-    "/me/images/projects/stock-management/4.png",
-    "/me/images/projects/stock-management/5.png",
-    "/me/images/projects/stock-management/6.png",
-    "/me/images/projects/stock-management/7.png",
-    "/me/images/projects/stock-management/8.png",
-    "/me/images/projects/stock-management/9.png",
-    "/me/images/projects/stock-management/10.png",
-    "/me/images/projects/stock-management/11.png",
-    "/me/images/projects/stock-management/12.png",
-    "/me/images/projects/stock-management/13.png"
-  ]
+          "/me/images/projects/stock-management/1.png",
+          "/me/images/projects/stock-management/2.png",
+          "/me/images/projects/stock-management/3.png",
+          "/me/images/projects/stock-management/4.png",
+          "/me/images/projects/stock-management/5.png",
+          "/me/images/projects/stock-management/6.png",
+          "/me/images/projects/stock-management/7.png",
+          "/me/images/projects/stock-management/8.png",
+          "/me/images/projects/stock-management/9.png",
+          "/me/images/projects/stock-management/10.png",
+          "/me/images/projects/stock-management/11.png",
+          "/me/images/projects/stock-management/12.png",
+          "/me/images/projects/stock-management/13.png"
+        ]
+      },
+      {
+        "title": "Système de Gestion des Ressources Humaines (HRM)",
+        "description": "Une application complète de gestion des ressources humaines développée avec Laravel et Filament. Elle permet la gestion des employés, des départements, des rôles et des autorisations dans un environnement sécurisé et évolutif. Le système utilise Laravel Shield pour un contrôle d’accès avancé basé sur les rôles et les permissions, et intègre la prise en charge du multilingue avec un changement de langue fluide, ce qui le rend parfaitement adapté aux besoins des entreprises et des administrations.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "Filament",
+          "Laravel Shield",
+          "Tailwind CSS"
+        ],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/hr-management",
+        "images": [
+          "/me/images/projects/hr-management/1.png",
+          "/me/images/projects/hr-management/2.png",
+          "/me/images/projects/hr-management/3.png",
+          "/me/images/projects/hr-management/4.png",
+          "/me/images/projects/hr-management/5.png",
+          "/me/images/projects/hr-management/6.png",
+          "/me/images/projects/hr-management/7.png"
+        ]
       }
     ]
   },

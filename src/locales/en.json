@@ -31,23 +31,23 @@
     "shortBio": "I'm a passionate web developer with a focus on creating engaging digital experiences.",
     "longBio": "I'm a passionate full-stack web developer with a strong foundation in Laravel, React.js, JavaScript, PHP, MySQL, and modern web technologies. While I may not have years of professional experience yet, I've built several real-world projects that demonstrate my ability to design, develop, and debug full-featured applications from scratch. I specialize in creating clean, responsive, and user-friendly web apps, and I'm constantly learning new tools and best practices. Whether it's crafting efficient APIs with Laravel or building dynamic front-ends with React, I love bringing ideas to life through code.",
     "skills": {
-  "title": "Skills",
-  "frontend": "Frontend Development",
-  "backend": "Backend Development",
-  "design": "UI/UX Design",
-  "languages": [
-    "HTML5",
-    "CSS3",
-    "JavaScript (ES6+)",
-    "React",
-    "Shadcn UI",
-    "PHP",
-    "Laravel",
-    "Filament",
-    "SQL",
-    "WordPress"
-  ]
-},
+      "title": "Skills",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "design": "UI/UX Design",
+      "languages": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React",
+        "Shadcn UI",
+        "PHP",
+        "Laravel",
+        "Filament",
+        "SQL",
+        "WordPress"
+      ]
+    },
     "timeline": {
       "title": "Education",
       "items": [
@@ -110,47 +110,78 @@
           "/me/images/projects/tasks-management/8.png",
           "/me/images/projects/tasks-management/9.png"
         ]
-      },{
-      "title": "Multivendor E-commerce Store",
-        "description": "A full-featured multivendor e-commerce platform built with Laravel, React, and Inertia.js. Supports product variations and variation options, vendor management, modern UI using Shadcn UI and Filament, integrated with Stripe for payments and Gemini API to help vendors generate product content effortlessly.",
-      "technologies": ["PHP", "Laravel", "MySQL", "React", "Inertia.js", "Filament", "Shadcn UI", "Tailwind CSS"],
-      "category": "fullstack",
-      "github": "https://github.com/hassanjebli/multi-vendor-ecommerce", 
-      "images": [
-        "/me/images/projects/ecommerce/1.png",
-        "/me/images/projects/ecommerce/2.png",
-        "/me/images/projects/ecommerce/3.png",
-        "/me/images/projects/ecommerce/4.png",
-        "/me/images/projects/ecommerce/5.png",
-        "/me/images/projects/ecommerce/6.png",
-        "/me/images/projects/ecommerce/7.png",
-        "/me/images/projects/ecommerce/8.png"
-      ]
       },
       {
-  "title": "Advanced Stock Management System",
-  "description": "A professional and complete stock management system built entirely with Laravel and Filament. It provides all the features needed for efficient inventory control, including product and category management, supplier and customer tracking, purchase and sales management, stock in/out operations, and real-time inventory monitoring. Advanced tools such as Excel/PDF reporting, role-based access control, and detailed user management with granular permissions ensure reliability and scalability for real-world business use.",
-  "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
-  "category": "fullstack",
-  "github": "https://github.com/hassanjebli/stock-management",
-  "images": [
-    "/me/images/projects/stock-management/1.png",
-    "/me/images/projects/stock-management/2.png",
-    "/me/images/projects/stock-management/3.png",
-    "/me/images/projects/stock-management/4.png",
-    "/me/images/projects/stock-management/5.png",
-    "/me/images/projects/stock-management/6.png",
-    "/me/images/projects/stock-management/7.png",
-    "/me/images/projects/stock-management/8.png",
-    "/me/images/projects/stock-management/9.png",
-    "/me/images/projects/stock-management/10.png",
-    "/me/images/projects/stock-management/11.png",
-    "/me/images/projects/stock-management/12.png",
-    "/me/images/projects/stock-management/13.png"
-  ]
-}
-
-
+        "title": "Multivendor E-commerce Store",
+        "description": "A full-featured multivendor e-commerce platform built with Laravel, React, and Inertia.js. Supports product variations and variation options, vendor management, modern UI using Shadcn UI and Filament, integrated with Stripe for payments and Gemini API to help vendors generate product content effortlessly.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "React",
+          "Inertia.js",
+          "Filament",
+          "Shadcn UI",
+          "Tailwind CSS"
+        ],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/multi-vendor-ecommerce",
+        "images": [
+          "/me/images/projects/ecommerce/1.png",
+          "/me/images/projects/ecommerce/2.png",
+          "/me/images/projects/ecommerce/3.png",
+          "/me/images/projects/ecommerce/4.png",
+          "/me/images/projects/ecommerce/5.png",
+          "/me/images/projects/ecommerce/6.png",
+          "/me/images/projects/ecommerce/7.png",
+          "/me/images/projects/ecommerce/8.png"
+        ]
+      },
+      {
+        "title": "Advanced Stock Management System",
+        "description": "A professional and complete stock management system built entirely with Laravel and Filament. It provides all the features needed for efficient inventory control, including product and category management, supplier and customer tracking, purchase and sales management, stock in/out operations, and real-time inventory monitoring. Advanced tools such as Excel/PDF reporting, role-based access control, and detailed user management with granular permissions ensure reliability and scalability for real-world business use.",
+        "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/stock-management",
+        "images": [
+          "/me/images/projects/stock-management/1.png",
+          "/me/images/projects/stock-management/2.png",
+          "/me/images/projects/stock-management/3.png",
+          "/me/images/projects/stock-management/4.png",
+          "/me/images/projects/stock-management/5.png",
+          "/me/images/projects/stock-management/6.png",
+          "/me/images/projects/stock-management/7.png",
+          "/me/images/projects/stock-management/8.png",
+          "/me/images/projects/stock-management/9.png",
+          "/me/images/projects/stock-management/10.png",
+          "/me/images/projects/stock-management/11.png",
+          "/me/images/projects/stock-management/12.png",
+          "/me/images/projects/stock-management/13.png"
+        ]
+      },
+      {
+        "title": "HR Management System",
+        "description": "A complete Human Resources Management System built with Laravel and Filament. The platform manages employees, departments, roles, permissions, and HR-related data in a secure and scalable way. It uses Laravel Shield for advanced role-based access control and supports multiple languages with a smooth language switcher, making it suitable for real-world enterprise and administrative environments.",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "Filament",
+          "Laravel Shield",
+          "Tailwind CSS"
+        ],
+        "category": "fullstack",
+        "github": "https://github.com/hassanjebli/hr-management",
+        "images": [
+          "/me/images/projects/hr-management/1.png",
+          "/me/images/projects/hr-management/2.png",
+          "/me/images/projects/hr-management/3.png",
+          "/me/images/projects/hr-management/4.png",
+          "/me/images/projects/hr-management/5.png",
+          "/me/images/projects/hr-management/6.png",
+          "/me/images/projects/hr-management/7.png"
+        ]
+      }
     ]
   },
   "contact": {
