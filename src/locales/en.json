@@ -52,6 +52,12 @@
       "title": "Education",
       "items": [
         {
+          "year": "2025 - 2026",
+          "title": "Bachelor – Développement d’Applications & Intelligence Artificielle (DAIA) (In progress)",
+          "organization": "EST Casablanca",
+          "description": "Currently pursuing a Bachelor focused on application development and artificial intelligence, covering modern software engineering practices and AI fundamentals."
+        },
+        {
           "year": "2023 - 2025",
           "title": "Diploma in Digital Development – Web Full Stack",
           "organization": "OFPPT – Oulad Teïma Center",

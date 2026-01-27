@@ -52,6 +52,12 @@
       "title": "Éducation",
       "items": [
         {
+          "year": "2025 - 2026",
+          "title": "Bachelor – Développement d’Applications & Intelligence Artificielle (DAIA) (En cours)",
+          "organization": "EST Casablanca",
+          "description": "Bachelor en cours axé sur le développement d’applications et l’intelligence artificielle, avec une approche orientée projets et bonnes pratiques d’ingénierie logicielle."
+        },
+        {
           "year": "2023 - 2025",
           "title": "Diplôme de Technicien Spécialisé en Développement Digital – Option Web Full Stack",
           "organization": "OFPPT – Centre Oulad Teïma",
@@ -80,11 +86,7 @@
       {
         "title": "Plateforme de vente de voitures",
         "description": "Application web full-stack pour l'achat et la vente de voitures. Les visiteurs peuvent consulter et parcourir les véhicules disponibles, tandis que les utilisateurs inscrits peuvent mettre leurs propres voitures en vente. La plateforme intègre également l’authentification, la possibilité d’ajouter des voitures à une liste de souhaits et une navigation fluide.",
-        "technologies": [
-          "PHP",
-          "Laravel",
-          "MySql"
-        ],
+        "technologies": ["PHP", "Laravel", "MySql"],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/GearShift",
         "images": [
@@ -100,12 +102,7 @@
       {
         "title": "Application de gestion des tâches",
         "description": "Une application complète de gestion de projets, de tâches et d’utilisateurs. Elle permet de créer des projets, d’assigner des tâches, de définir des échéances et de suivre l’avancement, offrant ainsi un outil simple mais puissant pour rester organisé et productif.",
-        "technologies": [
-          "Laravel",
-          "React",
-          "MySql",
-          "Inertia js"
-        ],
+        "technologies": ["Laravel", "React", "MySql", "Inertia js"],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/tasks-management",
         "images": [
@@ -149,13 +146,7 @@
       {
         "title": "Système avancé de gestion des stocks",
         "description": "Un système professionnel et complet de gestion des stocks, développé entièrement avec Laravel et Filament. Il offre toutes les fonctionnalités nécessaires pour un contrôle efficace des inventaires, incluant la gestion des produits et des catégories, le suivi des fournisseurs et des clients, la gestion des achats et des ventes, les opérations d’entrée et de sortie de stock, ainsi que la surveillance des stocks en temps réel. Des outils avancés tels que l’exportation en Excel/PDF, le contrôle d’accès basé sur les rôles et une gestion détaillée des utilisateurs avec permissions granulaires garantissent une solution fiable et évolutive adaptée aux besoins réels des entreprises.",
-        "technologies": [
-          "PHP",
-          "Laravel",
-          "MySQL",
-          "Filament",
-          "Tailwind CSS"
-        ],
+        "technologies": ["PHP", "Laravel", "MySQL", "Filament", "Tailwind CSS"],
         "category": "fullstack",
         "github": "https://github.com/hassanjebli/stock-management",
         "images": [
